@@ -17,12 +17,13 @@
     <title>Welcome to My Site!</title>
     {% endif %}
 <head>
+    <title></title>
  <body>
 <!-- As a heading -->
 
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-1">
-  <a class="navbar-brand" href="#">{% if user %}{{ user.username }}'s Homepage{% else %}
+  <a class="navbar-brand" href="/">{% if user %}{{ user.username }}'s Homepage{% else %}
     <title>Welcome to My Homepage</title>
     {% endif %}</a>
   <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button">
@@ -34,11 +35,12 @@
             <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="/api/v1/cities">Cities API JSON endpoint <span class="sr-only">(current)</span></a>
-        </li>
+        <a class="nav-link" href="/actors/new">New Entry <span class="sr-only">(current)</span></a>
+      </li>
         <li class="nav-item active">
-            <a class="btn btn-success pl-2 lr-2 ml-3" href="/cities/new">Add +<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="api/actors">Oscar API JSON endpoint <span class="sr-only">(current)</span></a>
         </li>
+
     </ul>
   </div>
 </nav>
