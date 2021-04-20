@@ -1,19 +1,19 @@
 # Web Application Part 3
-This project is a homework assignment to learn how to get Pycharm setup with Docker, Flask, MySQL and Postman.
-# SQL Data in Pycharm
-![The project showing that you can view YOUR data tables in pycharm](screenshots/sql3.png)
+This project is a homework assignment how to get REST API setup with Docker, Flask, MySQL and Postman.
+# Postman listing all records
+![Project showing postman listing all records](screenshots/output_a.png)
 
-# Localhost Home page
-![YOUR project running correctly in the browser displaying your homepage with your data](screenshots/homescreen3.png)
+# Postman showing one record with a get request
+![Postman showing one record with a get request](screenshots/output_b.png)
 
-# View of single record 
-![YOUR project running correctly in the browser displaying your data record as a view of one record](screenshots/onerecord3.png)
+# Postman showing creating a record by showing the post request and the results in the record listing 
+![Postman showing creating a record by showing the post request](screenshots/post_add1.png)
+![Postman showing the results in the record listing](screenshots/add_output.png)
 
-# New record added at the last 
-![YOUR project running correctly in the browser displaying a new record added to your home page](screenshots/newrecord3.png)
+# Postman showing edit a record by showing the put request and the results in the record listing  
+![Postman showing edit a record by showing the put request](screenshots/edited.png)
+![Postman showing the results in the record listing](screenshots/edited_output.png)
 
-# Updated last record
-![YOUR project running correctly in the browser displaying an updated record added to your home page](screenshots/updatedrecord3.png)
-
-# Deleted last record
-![YOUR project running correctly in the browser displaying a deleted record added to your home page](screenshots/deletedrecord3.png)
+# Postman showing delete a record by showing the delete request and the results in the record listing
+![Postman showing delete a record by showing the delete request](screenshots/delete.png)
+![Postman showing the results in the record listing](screenshots/delete_output.png)
