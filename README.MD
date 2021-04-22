@@ -1,4 +1,4 @@
-# Web Application Part 3
+# Web Application Final Part 
 This project is a homework assignment how to get REST API setup with Docker, Flask, MySQL and Postman.
 # Postman listing all records
 ![Project showing postman listing all records](screenshots/output_a.png)
